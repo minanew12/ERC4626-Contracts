@@ -6,9 +6,6 @@ This repository contains open-source ERC4626 infrastructure that can be used by 
 
 [EIP-4626: The Tokenized Vault Standard](https://eips.ethereum.org/EIPS/eip-4626) is an ethereum application developer interface for building token vaults and strategies. It is meant to consolidate development efforts around "single token strategies" such as lending, yield aggregators, and single-sided staking.
 
-## ERC4626Router and Base
-
-ERC-4626 standardizes the interface around depositing and withdrawing tokens from strategies.
 
 The ERC4626 Router is an ecosystem utility contract (like WETH) which can route tokens in and out of multiple ERC-4626 strategies in a single call. Its architecture was inspired by the [Uniswap V3 multicall router](https://github.com/Uniswap/v3-periphery/blob/main/contracts/SwapRouter.sol).
 
